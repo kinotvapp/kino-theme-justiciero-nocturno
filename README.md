@@ -1,10 +1,10 @@
-<img src="icon.png" width="128" alt="Justiciero Nocturno">
+<img src="icon.png" width="128" alt="Batman">
 
-# Justiciero Nocturno
+# Batman
 
-Azul de capa y amarillo de señal en el cielo de una ciudad que nunca duerme.
+Negro de capa y amarillo de señal sobre el cielo de una ciudad que nunca duerme.
 
-Tema para [Kino](https://github.com/kinotvapp/kino-light). Cambia los colores, el fondo y las formas de toda la app, trae una pantalla de presentación y no se conecta a internet.
+Tema para [Kino](https://github.com/kinotvapp/kino-light). Cambia los colores, el fondo, las formas y el logo de toda la app, trae una pantalla de presentación y no se conecta a internet.
 
 En Kino, escribe `kinotvapp/kino-theme-justiciero-nocturno` en **Plugins ▸ Agregar un plugin**. Después ábrelo y pulsa **Activar**.
 

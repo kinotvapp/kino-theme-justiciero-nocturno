@@ -1,11 +1,11 @@
 {
   "id": "theme-justiciero-nocturno",
-  "name": "Justiciero Nocturno",
-  "version": "1.0.4",
+  "name": "Batman",
+  "version": "1.1.0",
   "apiVersion": 18,
   "entry": "plugin.js",
   "icon": "icon.png",
-  "description": "Azul de capa y amarillo de señal en el cielo de una ciudad que nunca duerme.",
+  "description": "Negro de capa y amarillo de señal sobre el cielo de una ciudad que nunca duerme.",
   "author": "kinotvapp",
   "hosts": [],
   "categories": [
@@ -15,8 +15,8 @@
     "screen"
   ],
   "screen": {
-    "label": "Justiciero Nocturno",
-    "labelEn": "Night Vigilante",
+    "label": "Batman",
+    "labelEn": "Batman",
     "opensFrom": [
       "settings"
     ],
@@ -29,16 +29,16 @@
     {
       "id": "justiciero-nocturno",
       "name": {
-        "es": "Justiciero Nocturno",
-        "en": "Night Vigilante"
+        "es": "Batman",
+        "en": "Batman"
       },
       "colors": {
         "accent": "#F5C518",
-        "onAccent": "#191300",
-        "background": "#070B14",
-        "surface": "#101725",
-        "surfaceHigh": "#1A2336",
-        "railPanel": "#0B111E"
+        "onAccent": "#14110A",
+        "background": "#07090E",
+        "surface": "#131923",
+        "surfaceHigh": "#1E2634",
+        "railPanel": "#0C1018"
       },
       "shape": {
         "cardRadius": 10,
@@ -61,8 +61,8 @@
         "colors.accent": {
           "swatches": [
             "#F5C518",
-            "#7DA7D9",
-            "#D7DBE0"
+            "#9AA7BD",
+            "#E5484D"
           ]
         },
         "shape.cardRadius": {
@@ -77,14 +77,44 @@
       "background": {
         "type": "gradient",
         "colors": [
-          "#070B14",
-          "#141F36"
+          "#07090E",
+          "#222C3E"
         ],
         "angle": 180
       },
       "price": {
         "kinos": 10,
         "payTo": "8b97f0011f9d4594d269edc4afb3a0ee10e394abf54b0a40d90ca83f8f7d6a0e"
+      },
+      "logo": {
+        "decor": {
+          "paths": [
+            {
+              "d": "M -104 0 A 104 104 0 1 1 104 0 A 104 104 0 1 1 -104 0 Z",
+              "fill": "#000000"
+            },
+            {
+              "d": "M -100 0 A 100 100 0 1 1 100 0 A 100 100 0 1 1 -100 0 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M -84 -18 Q -62 -52 -30 -26 Q -18 -42 -11 -32 L -7 -56 L 0 -38 L 7 -56 L 11 -32 Q 18 -42 30 -26 Q 62 -52 84 -18 Q 62 -22 46 8 Q 30 -12 17 12 Q 8 0 0 30 Q -8 0 -17 12 Q -30 -12 -46 8 Q -62 -22 -84 -18 Z",
+              "fill": "#07090E"
+            },
+            {
+              "d": "M -395 -120 A 42 42 0 1 1 -311 -120 A 42 42 0 1 1 -395 -120 Z M -389 -138 L -387 -190 L -358 -154 Z M -317 -138 L -319 -190 L -348 -154 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M -389 -120 A 36 36 0 1 1 -317 -120 A 36 36 0 1 1 -389 -120 Z M -384 -138 L -382 -185 L -358 -154 Z M -322 -138 L -324 -185 L -348 -154 Z",
+              "fill": "#1B2029"
+            },
+            {
+              "d": "M -378 -123 L -360 -117 L -361 -110 L -378 -115 Z M -328 -123 L -346 -117 L -345 -110 L -328 -115 Z",
+              "fill": "#FFFFFF"
+            }
+          ]
+        }
       }
     }
   ]

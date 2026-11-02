@@ -1,5 +1,5 @@
 // A theme's presentation, drawn with the screen kit in whichever theme is active.
-const THEME = {"id": "justiciero-nocturno", "es": "Justiciero Nocturno", "en": "Night Vigilante", "hook": "Cuando cae la noche, la ciudad te llama.", "hookEn": "When night falls, the city calls you.", "desc": "Azul de capa y amarillo de señal en el cielo de una ciudad que nunca duerme."};
+const THEME = {"id": "justiciero-nocturno", "es": "Batman", "en": "Batman", "hook": "La ciudad duerme. Él no.", "hookEn": "The city sleeps. He doesn't.", "desc": "Negro de capa y amarillo de señal sobre el cielo de una ciudad que nunca duerme."};
 const t = (es, en) => ({ text: es, textEn: en });
 
 export async function screen({ activeTheme }) {
